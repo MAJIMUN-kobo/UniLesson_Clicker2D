@@ -1,0 +1,32 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_UniLesson_Clicker2D/UI/Uss_MainGame.uss?fileID=7433441132597879392&amp;guid=5964a35439f74b142aa73261c456d188&amp;type=3#Uss_MainGame"/>
+    <ui:VisualElement name="head" class="head">
+        <ui:VisualElement name="score-container" class="head score-container">
+        </ui:VisualElement>
+    </ui:VisualElement>
+    
+    <!-- Body -->
+    <ui:VisualElement name="body" class="body">
+        <ui:VisualElement name="score-section" class="body score-section">
+            <ui:VisualElement name="score-container" class="body score-container">
+                <ui:Image name="score-icon" class="body score-icon"/>
+                <ui:Label name="score-label" class="body score-label" text="000000"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <!-- /Body -->
+
+    <!-- Footer -->
+    <ui:VisualElement name="foot" class="foot">
+        <ui:VisualElement name="audio-setting-container" class="foot audio-setting-container">
+            <ui:Slider name="bgm-volume-slider" class="foot volume-slider"/>
+            <ui:Slider name="se-volume-slider" class="foot volume-slider"/>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="register-container" class="foot register-container" >
+            <ui:Button name="save-button" class="save-button" />
+            <ui:Button name="delete-button" class="delete-button" />
+        </ui:VisualElement >
+    </ui:VisualElement>
+    <!-- /Footer -->
+</ui:UXML>

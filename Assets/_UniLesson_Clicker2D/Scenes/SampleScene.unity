@@ -234,7 +234,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ffd3f366f1722ae44a0d9bfb7828fc8b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 034d8ea241d15844bb9205fea4630a47, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -278,9 +278,9 @@ AudioSource:
   m_GameObject: {fileID: 173406460}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 4969966190564781531, guid: 044f44defbbb835448019828d23967d3, type: 2}
-  m_audioClip: {fileID: 8300000, guid: c01219ed30099b94c9f219005ca557ac, type: 3}
-  m_Resource: {fileID: 8300000, guid: c01219ed30099b94c9f219005ca557ac, type: 3}
+  OutputAudioMixerGroup: {fileID: 4969966190564781531, guid: 98c843ca013e64b458c2f55bd0faec15, type: 2}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: e80ed13194d11b649aa6004e2078612a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -496,7 +496,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ffd3f366f1722ae44a0d9bfb7828fc8b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 034d8ea241d15844bb9205fea4630a47, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -613,7 +613,6 @@ MonoBehaviour:
   m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
-  m_Version: 2
   m_TaaSettings:
     m_Quality: 3
     m_FrameInfluence: 0.1
@@ -621,6 +620,7 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -907,7 +907,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1751368490, guid: 66e414b3bca180642b9f0616e33b1a2c, type: 3}
+  m_Sprite: {fileID: 1047583935, guid: 593bbb187e3e24c41b74f434d643fc3a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1410,6 +1410,7 @@ MonoBehaviour:
   m_VerticalAlignment: 4096
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1546,6 +1547,7 @@ MonoBehaviour:
   m_VerticalAlignment: 4096
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1752,15 +1754,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 034d8ea241d15844bb9205fea4630a47, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1872,6 +1874,7 @@ MonoBehaviour:
   m_VerticalAlignment: 4096
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1968,6 +1971,7 @@ GameObject:
   m_IsActive: 1
 --- !u!212 &1442214447
 SpriteRenderer:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1986,6 +1990,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2007,19 +2013,20 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -100
-  m_Sprite: {fileID: 21300000, guid: 2800db685b8c743468c4487205f92317, type: 3}
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: ccc34835ba53cf445bf2939635143733, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1442214448
 Transform:
@@ -2423,6 +2430,7 @@ MonoBehaviour:
   m_VerticalAlignment: 4096
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2559,6 +2567,7 @@ MonoBehaviour:
   m_VerticalAlignment: 4096
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2723,8 +2732,8 @@ MonoBehaviour:
   score: 0
   scoreText: {fileID: 936216329}
   audioSource: {fileID: 1793511455}
-  saveSound: {fileID: 8300000, guid: 98e51a85daeb0bf4bb75e4c1b90a373e, type: 3}
-  deleteSound: {fileID: 8300000, guid: 03f2e930902ee3a4f9ad62e9709439d7, type: 3}
+  saveSound: {fileID: 8300000, guid: 3290b9b117394d94ebdf58af8a20c1fd, type: 3}
+  deleteSound: {fileID: 8300000, guid: a8748c538c8456648a5ad55881a54ad9, type: 3}
 --- !u!4 &1793511454
 Transform:
   m_ObjectHideFlags: 0
@@ -2749,7 +2758,7 @@ AudioSource:
   m_GameObject: {fileID: 1793511452}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 1254106605360015089, guid: 044f44defbbb835448019828d23967d3, type: 2}
+  OutputAudioMixerGroup: {fileID: 1254106605360015089, guid: 98c843ca013e64b458c2f55bd0faec15, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
@@ -3041,15 +3050,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 034d8ea241d15844bb9205fea4630a47, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3095,7 +3104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb891b3512d2b39499a91e8599ca1d6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: 044f44defbbb835448019828d23967d3, type: 2}
+  audioMixer: {fileID: 24100000, guid: 98c843ca013e64b458c2f55bd0faec15, type: 2}
   bgmVolume: 0
   seVolume: 0
   bgmSlider: {fileID: 720065204}
@@ -3139,7 +3148,7 @@ AudioSource:
   m_GameObject: {fileID: 6270264449339348454}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 1254106605360015089, guid: 044f44defbbb835448019828d23967d3, type: 2}
+  OutputAudioMixerGroup: {fileID: 1254106605360015089, guid: 98c843ca013e64b458c2f55bd0faec15, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
@@ -3247,8 +3256,8 @@ MonoBehaviour:
   lifeTime: 1
   animator: {fileID: 8040805088696549502}
   audioSource: {fileID: 650646676199671409}
-  openSound: {fileID: 8300000, guid: 51f753acbc066ae4497cfc3a6c9aba59, type: 3}
-  dropSound: {fileID: 8300000, guid: c038e75fc0783a8479ab37812faaa0a6, type: 3}
+  openSound: {fileID: 8300000, guid: 89fc78982b5080947a76179176190cda, type: 3}
+  dropSound: {fileID: 8300000, guid: 2ac7753e6f39bc647ba672942ef4332d, type: 3}
   scoreManager: {fileID: 1793511453}
   scoreMin: 10
   scoreMax: 100
@@ -3312,7 +3321,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    newSize: {x: 0.48, y: 0.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -3343,6 +3352,7 @@ Animator:
   m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &8958560416467626504
 SpriteRenderer:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3361,6 +3371,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3382,19 +3394,20 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1068193963, guid: 913b7bc692f887e429f1cf1b95c91b36, type: 3}
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -1332468746, guid: b91c0992108db994abe530a568b32dcb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
